@@ -1,0 +1,73 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff4f4f;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #ff4f4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff7979;
+    transform: scale(1.05);
+}
+
+.add-post {
+    background-color: #48c774; /* Green button for a positive vibe */
+}
+
+.add-post:hover {
+    background-color: #32a852;
+}
+
+.search-icon {
+    margin-left: 10px;
+    color: #fff;
+}
+
+button i {
+    font-size: 1.2rem;
+}
+
+/* Make the page responsive */
+@media (max-width: 600px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
