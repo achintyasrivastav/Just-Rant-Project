@@ -84,6 +84,7 @@ button#post:hover {
 
 /* Post styling */
 .post {
+    margin-top : 25px;
     background-color: #2b2b2b;
     border-radius: 10px;
     padding: 20px;
